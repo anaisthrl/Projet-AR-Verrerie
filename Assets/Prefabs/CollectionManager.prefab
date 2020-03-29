@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7291358285597174086
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7291358285597174088}
+  - component: {fileID: 7291358285597174087}
+  m_Layer: 0
+  m_Name: CollectionManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7291358285597174088
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7291358285597174086}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7291358285597174087
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7291358285597174086}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 505e569efc9683c42846411f3c129506, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  wineGlassPrefab_C1: {fileID: -927199367670048503, guid: 6fde9e33d24cade4e9a7a08db6b29b0b,
+    type: 3}
+  champagneGlassPrefab_C1: {fileID: -927199367670048503, guid: 6a3450009a26fdd4a97dee7f3443d1e7,
+    type: 3}
+  shotGlassPrefab_C1: {fileID: -927199367670048503, guid: fd989a250f056f94fa7f9406a56fe1aa,
+    type: 3}
+  cocktailGlassPrefab_C1: {fileID: -927199367670048503, guid: f34b4aee12601cf42a32e30768b169d8,
+    type: 3}
+  jugPrefab_C1: {fileID: -927199367670048503, guid: 6c9cc82b3148c944e8815addd94138bf,
+    type: 3}
+  wineGlassPrefab_C2: {fileID: -927199367670048503, guid: b077ab862ce28ca41922116782c56d64,
+    type: 3}
+  champagneGlassPrefab_C2: {fileID: -927199367670048503, guid: 0068b0e1c7ad2e443ae3c10cf105030a,
+    type: 3}
+  shotGlassPrefab_C2: {fileID: -927199367670048503, guid: 35340b302c2bad64fb3d2dc544c40507,
+    type: 3}
+  cocktailGlassPrefab_C2: {fileID: -927199367670048503, guid: b81c36d588b18984d8117895064e999e,
+    type: 3}
+  jugPrefab_C2: {fileID: -927199367670048503, guid: fea942f8d3568b44b8df87bb42eaccd6,
+    type: 3}
+  wineGlassPrefab_C3: {fileID: 0}
+  champagneGlassPrefab_C3: {fileID: 0}
+  shotGlassPrefab_C3: {fileID: 0}
+  cocktailGlassPrefab_C3: {fileID: 0}
+  jugPrefab_C3: {fileID: 0}
+  wineGlass: {fileID: 0}
+  champagneGlass: {fileID: 0}
+  shotGlass: {fileID: 0}
+  cocktailGlass: {fileID: 0}
+  jug: {fileID: 0}
